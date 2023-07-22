@@ -15,18 +15,16 @@ const NavItems = [
 
 const NavBar = () => {
   return (
-    <nav style={{top: '0', position: 'fixed', width: '100%', backgroundColor: '#0E0E0E', color: '#FFFCF9'}}>
+    <nav style={{top: '0', position: 'fixed', width: '100%', backgroundColor: '#E6E3D3', color: '#403F3B'}}>
       <div style={{ display: 'flex'}}>
         <h2 style={{ marginLeft: '2em' }}>YABSRA</h2>
         <div style={{ display: 'flex', marginLeft: 'auto', marginRight: '2em', alignItems: 'center' }}>
           {NavItems.map((item) => (
-            <div>
-              <a
-                style={{margin: '10px'}}
-              >
+            <div style={{ display: 'block', margin: '10px' }}>
+              <a>
                 {item.name}
               </a>
-              <div style={{ backgroundColor: '#8DB1D5', width: '4em', height: '1em' }}></div>
+              <div style={{ backgroundColor: '#92A1B3', width: 'auto', height: '0.5em' }}></div>
             </div>
             
             

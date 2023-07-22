@@ -5,7 +5,7 @@ import AboutMe from "./components/AboutMe";
 
 function App() {
   return (
-    <div  style={{ backgroundColor: '#0E0E0E', color: '#FFFCF9'}}>
+    <div  style={{ backgroundColor: '#E6E3D3', color: '#403F3B'}}>
       <NavBar/>
       <Header/>
       <AboutMe/>
